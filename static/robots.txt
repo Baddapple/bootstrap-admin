@@ -1,5 +1,0 @@
-# robotstxt.org/
-# This file is useful here if you use the static folder as a subdomain
-
-User-agent: *
-Disallow: /
