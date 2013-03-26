@@ -21,8 +21,9 @@ Select2, Bootstrap Wysihtml5 and more.
 * PHP 5.0+
 * Apache 2.2 with Rewrite module
 
-## Screenshot
-![screenshot.png](https://raw.github.com/xaguilars/bootstrap-cms/master/screenshot.png)
+## Screenshots
+![screenshots/login.png](https://raw.github.com/xaguilars/bootstrap-cms/master/screenshots/login.png)
+![screenshots/home.png](https://raw.github.com/xaguilars/bootstrap-cms/master/screenshots/home.png)
 
 ## To-Do
 

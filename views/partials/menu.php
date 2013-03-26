@@ -6,7 +6,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </a>
-            <a class="brand" href="#"><?php echo $config->title ?></a>
+            <a class="brand" href="<?php echo $urls->base ?>"><?php echo $config->title ?></a>
             <nav class="nav-collapse collapse">
                 <ul class="nav">
                     <li class="active"><a href="#">Posts</a></li>

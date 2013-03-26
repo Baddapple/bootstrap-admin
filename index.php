@@ -1,5 +1,5 @@
 <?php
 
-include "inc/bootstrap.php";
+include "include/bootstrap.php";
 print bscms::render();
 ?>

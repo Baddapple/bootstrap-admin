@@ -1,0 +1,75 @@
+body{
+    background: #f5f5f5;
+}
+
+.view{
+    background: none;
+}
+
+.login-container{
+    max-width: 400px;
+    margin:0 auto;
+}
+
+.login-container .thumbnail.company-logo{
+    background: #222 url(../img/logo.png) no-repeat center center;
+    background-size: contain;
+    display:block;
+    height:60px;
+    min-width: 144px;
+    margin:0;
+    border-radius: 3px 3px 0 0;
+    border:1px solid #ccc;
+    border-bottom: none;
+}
+
+button.btn-primary{
+    background: #D05B2B !important;
+}
+
+a, a:hover{
+    color:#D05B2B;
+}
+
+.login-box{
+    border-radius: 0 0 3px 3px;
+    border:1px solid #ccc;
+    background: #fff;
+    padding:0 0 20px 0;
+}
+
+.login-box header{
+    background: #F0F0F0;
+}
+
+.login-box header .title{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #555;
+    text-shadow: 1px 1px 0 #fff;
+    line-height: 34px;
+    padding:10px 20px;
+    font-weight: bold;
+}
+
+.login-box header .links{
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #555;
+    text-shadow: 1px 1px 0 #fff;
+    line-height: 34px;
+    padding:10px 20px;
+    font-weight: bold;
+}
+.login-box form,
+.login-box .form-actions{
+    margin-bottom: 0;
+}
+
+.login-box form{
+    padding:10px 20px;
+}
+
+.login-box .form-actions .checkbox{
+    font-size: 12px;
+}

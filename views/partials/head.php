@@ -36,7 +36,7 @@
                 'assets/vendor/css/bootstrap-datatables.css', 'assets/vendor/css/bootstrap-wysihtml5.css', 'assets/vendor/css/select2.css',
                 'assets/vendor/css/helper.css',
                 // end vendors
-                'assets/css/backend.css'
+                'assets/css/bscms.css'
             );
             
             $scripts = array(

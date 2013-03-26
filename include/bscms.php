@@ -17,7 +17,7 @@ class bscms
             "title" => "Backend",
             "rootClasses" => "sf-layout ",
             "assetsVersion" => 1,
-            "templateDir" => realpath(dirname(__FILE__)) . DIRECTORY_SEPARATOR . "templates" . DIRECTORY_SEPARATOR
+            "viewsPath" => realpath(dirname(dirname(__FILE__))) . DIRECTORY_SEPARATOR . "views" . DIRECTORY_SEPARATOR
                 ), $config);
 
         // Host url
@@ -36,6 +36,11 @@ class bscms
         // Current url with query string
         self::url("currentqs", self::url("current") .
                 (!empty(self::request()->query) ? "?" . http_build_query(self::request()->query) : ""));
+        
+        self::url("assets", self::url("public") . "assets/");
+        self::url("css", self::url("assets") . "css/");
+        self::url("js", self::url("assets") . "js/");
+        self::url("img", self::url("assets") . "img/");
     }
 
     /**
@@ -133,18 +138,18 @@ class bscms
         return self::$urls[$name];
     }
 
-    public static function render($tpl = null, $vars = array())
+    public static function render($view = null, $vars = array())
     {
-        if (empty($tpl)) {
+        if (empty($view)) {
             if (empty(self::request()->path)) {
-                $tpl = "home.php";
+                $view = "login.php";
             } else {
-                $tpl = str_replace("/", DIRECTORY_SEPARATOR, self::request()->path) . ".php";
+                $view = str_replace("/", DIRECTORY_SEPARATOR, self::request()->path) . ".php";
             }
         }
 
-        if (!is_readable(self::config("templateDir") . $tpl)) {
-            $tpl = "error.php";
+        if (!is_readable(self::config("viewsPath") . $view)) {
+            $view = "error.php";
         }
 
         //expose vars
@@ -159,7 +164,7 @@ class bscms
 
         ob_start();
 
-        include self::config("templateDir") . $tpl;
+        include self::config("viewsPath") . $view;
 
         $contents = ob_get_clean();
 
