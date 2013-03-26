@@ -1,7 +1,9 @@
 <?php
 
-$config = (object) array(
+$config = array(
     "title" => "Backend",
     "rootClasses" => "sf-layout ",
     "assetsVersion" => 1
 );
+
+return $config;

@@ -1,8 +1,7 @@
 <?php include "partials/head.php"; ?>
 <div class="view">
     <div class="container">
-        <h2>Home</h2>
-        main view<br>
+        <h2>Login</h2>
     </div>
 </div>
 <?php include "partials/foot.php"; ?>

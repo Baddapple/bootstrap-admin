@@ -14,15 +14,15 @@
         <meta name="viewport" content="width=device-width">
         
         <!-- For third-generation iPad with high-resolution Retina display: -->
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/img/touch-icons/apple-touch-icon-144x144-precomposed.png?v=<?php echo $config->assetsVersion ?>">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo $urls->public; ?>assets/img/touch-icons/apple-touch-icon-144x144-precomposed.png?v=<?php echo $config->assetsVersion ?>">
         <!-- For iPhone with high-resolution Retina display: -->
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/img/touch-icons/apple-touch-icon-114x114-precomposed.png?v=<?php echo $config->assetsVersion ?>">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo $urls->public; ?>assets/img/touch-icons/apple-touch-icon-114x114-precomposed.png?v=<?php echo $config->assetsVersion ?>">
         <!-- For first- and second-generation iPad: -->
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/img/touch-icons/apple-touch-icon-72x72-precomposed.png?v=<?php echo $config->assetsVersion ?>">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo $urls->public; ?>assets/img/touch-icons/apple-touch-icon-72x72-precomposed.png?v=<?php echo $config->assetsVersion ?>">
         <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
-        <link rel="apple-touch-icon-precomposed" href="assets/img/touch-icons/apple-touch-icon-57x57-precomposed.png?v=<?php echo $config->assetsVersion ?>">
+        <link rel="apple-touch-icon-precomposed" href="<?php echo $urls->public; ?>assets/img/touch-icons/apple-touch-icon-57x57-precomposed.png?v=<?php echo $config->assetsVersion ?>">
         
-        <!--<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico?v=<?php echo $config->assetsVersion ?>">-->
+        <!--<link rel="shortcut icon" type="image/x-icon" href="<?php echo $urls->public; ?>assets/img/favicon.ico?v=<?php echo $config->assetsVersion ?>">-->
         
         <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet" type="text/css">
         
@@ -49,11 +49,11 @@
             );
             
             foreach($stylesheets as $uri):
-                ?><link rel="stylesheet" type="text/css" href="<?php echo $uri."?v=".$config->assetsVersion ?>"><?php
+                ?><link rel="stylesheet" type="text/css" href="<?php echo $urls->public . $uri."?v=".$config->assetsVersion ?>"><?php
             endforeach;
             
             foreach($scripts as $uri):
-                ?><script type="text/javascript" src="<?php echo $uri."?v=".$config->assetsVersion ?>"></script><?php
+                ?><script type="text/javascript" src="<?php echo $urls->public . $uri."?v=".$config->assetsVersion ?>"></script><?php
             endforeach;
         ?>
     </head>

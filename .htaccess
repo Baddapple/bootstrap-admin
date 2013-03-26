@@ -8,12 +8,12 @@ AddCharset utf-8 .atom .css .js .json .rss .vtt .xml
 # Change directory default index file order
 DirectoryIndex index.php index.html
 
-<IfModule mod_rewrite.c>
-  RewriteEngine On
-  RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteCond %{REQUEST_FILENAME} !-d
-  RewriteRule .* index.php/$0 [QSA]
-</IfModule>
+#<IfModule mod_rewrite.c>
+#  RewriteEngine On
+#  RewriteCond %{REQUEST_FILENAME} !-f
+#  RewriteCond %{REQUEST_FILENAME} !-d
+#  RewriteRule .* index.php/$0 [QSA]
+#</IfModule>
 
 # ----------------------------------------------------------------------
 # Custom Error pages
