@@ -133,7 +133,7 @@ class bscms
         return self::$urls[$name];
     }
 
-    public static function render($tpl = null)
+    public static function render($tpl = null, $vars = array("foo"=>"bar"))
     {
         if (empty($tpl)) {
             if (empty(self::request()->path)) {
@@ -148,6 +148,11 @@ class bscms
         }
 
         //expose vars
+        
+        foreach($vars as $k => $v){
+            $$k = $v;
+        }
+        
         $request = self::$request;
         $config = (object) self::$config;
         $urls = (object) self::$urls;
