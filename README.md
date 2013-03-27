@@ -18,8 +18,8 @@ Select2, Bootstrap Wysihtml5 and more.
 
 ## Requirements
 
-* PHP 5.0+
-* Apache 2.2 with Rewrite module
+* For generating the templates: Apache 2.2 and PHP 5.2+
+* Browser compatibility: Tested on Chrome 25
 
 ## Screenshots
 ![screenshots/login.png](https://raw.github.com/xaguilars/bootstrap-cms/master/screenshots/login.png)
@@ -27,10 +27,7 @@ Select2, Bootstrap Wysihtml5 and more.
 
 ## To-Do
 
-* [x] Use rewrite engine for loading templates
-
-* [ ] More views: login, error page, tables, fonts, etc.
-
-* [ ] Plugin showcase (colorpicker, datepicker, datatables, ...)
-
-* [ ] Notifications plugin [maybe Pines Notify](http://pinesframework.org/pnotify/)
+- [x] Use rewrite engine for loading templates
+- [ ] More views: login, error page, tables, fonts, etc.
+- [ ] Plugin showcase (colorpicker, datepicker, datatables, ...)
+- [ ] Notifications plugin [maybe Pines Notify](http://pinesframework.org/pnotify/)
