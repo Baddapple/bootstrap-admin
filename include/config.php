@@ -1,7 +1,7 @@
 <?php
 
 $config = array(
-    "title" => "Backend",
+    "title" => "Bootstrap CMS",
     "rootClasses" => "sf-layout ",
     "assetsVersion" => 1
 );

@@ -19,11 +19,7 @@ Select2, Bootstrap Wysihtml5 and more.
 ## Requirements
 
 * For generating the templates: Apache 2.2 and PHP 5.2+
-* Browser compatibility: Tested on Chrome 25
-
-## Screenshots
-![screenshots/login.png](https://raw.github.com/xaguilars/bootstrap-cms/master/screenshots/login.png)
-![screenshots/home.png](https://raw.github.com/xaguilars/bootstrap-cms/master/screenshots/home.png)
+* Browser compatibility: modern browsers (only tested on webkit)
 
 ## To-Do
 
@@ -31,3 +27,7 @@ Select2, Bootstrap Wysihtml5 and more.
 - [ ] More views: login, error page, tables, fonts, etc.
 - [ ] Plugin showcase (colorpicker, datepicker, datatables, ...)
 - [ ] Notifications plugin [maybe Pines Notify](http://pinesframework.org/pnotify/)
+
+## Screenshots
+![screenshots/login.png](https://raw.github.com/xaguilars/bootstrap-cms/master/screenshots/login.png)
+![screenshots/home.png](https://raw.github.com/xaguilars/bootstrap-cms/master/screenshots/home.png)
