@@ -1,12 +1,12 @@
 body{
-background: #555555; /* Old browsers */
-background: -moz-radial-gradient(center, ellipse cover,  #555555 0%, #111111 100%); /* FF3.6+ */
-background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#555555), color-stop(100%,#111111)); /* Chrome,Safari4+ */
-background: -webkit-radial-gradient(center, ellipse cover,  #555555 0%,#111111 100%); /* Chrome10+,Safari5.1+ */
-background: -o-radial-gradient(center, ellipse cover,  #555555 0%,#111111 100%); /* Opera 12+ */
-background: -ms-radial-gradient(center, ellipse cover,  #555555 0%,#111111 100%); /* IE10+ */
-background: radial-gradient(ellipse at center,  #555555 0%,#111111 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#555555', endColorstr='#111111',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    background: #555555; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover,  #555555 0%, #111111 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#555555), color-stop(100%,#111111)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  #555555 0%,#111111 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  #555555 0%,#111111 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  #555555 0%,#111111 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  #555555 0%,#111111 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#555555', endColorstr='#111111',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
 }
 
@@ -39,10 +39,6 @@ button.btn-primary{
     padding-bottom: 10px;
     font-size:16px;
     top: 5px;
-}
-
-a, a:hover{
-    color:#D05B2B;
 }
 
 .login-box{

@@ -60,40 +60,14 @@
         <div class="sf-wrap">
             <div class="sf-subwrap">
                 <header id="header" role="banner">
-                    <?php include "menu.php" ?>
-
-                    <div class="toolbar">
-                        <div class="container">
-                            <div class="pull-left">
-                                <h1>Heading 1</h1>
-                            </div>
-                            <div class="pull-right">
-                                <div class="btn-group">
-                                    <a href="#" class="btn"><i class="icon-inbox"></i> Inbox <span class="badge">11</span></a>
-                                    <a href="#" class="btn"> Drafts <span class="badge">2</span> </a>
-                                    <a href="#" class="btn"><i class="icon-trash"></i> Trash</a>
-                                </div>
-                                <div class="btn-group">
-                                    <a href="#" class="btn btn-primary"> New </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="toolbar flat">
-                        <div class="container">
-                            <ul class="nav nav-pills">
-                                <li class="active">
-                                    <a href="#">Content</a>
-                                </li>
-                                <li class="">
-                                    <a href="#">Images</a>
-                                </li>
-                                <li class="">
-                                    <a href="#">Options</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+                    <?php include "menu.php"; ?>
+                    <?php
+                    if (is_readable(dirname(__FILE__)."/toolbars_" . $viewname . ".php")) {
+                        include "toolbars_" . $viewname . ".php";
+                    } else {
+                        include "toolbars.php";
+                    }
+                    ?>
                 </header>
 
                 <div id="main" role="main">

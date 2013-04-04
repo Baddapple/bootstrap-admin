@@ -161,6 +161,7 @@ class bscms
         $request = self::$request;
         $config = (object) self::$config;
         $urls = (object) self::$urls;
+        $viewname = str_replace("/","_",self::request()->path);
 
         ob_start();
 
