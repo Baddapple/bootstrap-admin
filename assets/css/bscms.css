@@ -343,3 +343,14 @@ section h1 {
     color: #888;
     margin-right:2px;
 }
+
+
+
+
+.hero-error{
+    background: none;
+}
+
+.hero-error > p{
+    margin-top:20px;
+}

@@ -13,16 +13,4 @@
             </div>
         </div>
     </div>
-    <div class="toolbar flat">
-        <div class="container">
-            <ul class="nav nav-pills">
-                <li class="active">
-                    <a href="#">Overview</a>
-                </li>
-                <li class="">
-                    <a href="#">Logs</a>
-                </li>
-            </ul>
-        </div>
-    </div>
 </div>

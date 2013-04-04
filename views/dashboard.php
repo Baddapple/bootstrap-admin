@@ -1,7 +1,6 @@
 <?php include "partials/head.php"; ?>
 <section class="view">
     <div class="container">
-        <h1>Home</h1>
         
         <div class="row-fluid">
             <div class="span6">

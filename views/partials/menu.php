@@ -9,10 +9,10 @@
             <a class="brand" href="<?php echo $urls->base ?>"><?php echo $config->title ?></a>
             <nav class="nav-collapse collapse">
                 <ul class="nav">
-                    <li class="active"><a href="#">Dashboard</a></li>
-                    <li><a href="#">Pages</a></li>
-                    <li><a href="#">Comments</a></li>
-                    <li><a href="#">Appearance</a></li>
+                    <li <?php if($viewname=="dashboard"): ?>class="active" <?php endif; ?>><a href="<?php echo $urls->base ?>dashboard">Dashboard</a></li>
+                    <li <?php if($viewname=="pages"): ?>class="active" <?php endif; ?>><a href="<?php echo $urls->base ?>pages">Pages</a></li>
+                    <li <?php if($viewname=="comments"): ?>class="active" <?php endif; ?>><a href="<?php echo $urls->base ?>comments">Comments</a></li>
+                    <li <?php if($viewname=="appearance"): ?>class="active" <?php endif; ?>><a href="<?php echo $urls->base ?>appearance">Appearance</a></li>
                 </ul>
                 <ul class="nav pull-right">
                     <li class="dropdown">

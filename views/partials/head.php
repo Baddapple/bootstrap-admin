@@ -65,7 +65,7 @@
                     if (is_readable(dirname(__FILE__)."/toolbars_" . $viewname . ".php")) {
                         include "toolbars_" . $viewname . ".php";
                     } else {
-                        include "toolbars.php";
+                        //include "toolbars.php";
                     }
                     ?>
                 </header>

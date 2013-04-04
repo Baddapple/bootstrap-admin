@@ -80,7 +80,7 @@
                                 <a href="#" class="thumbnail company-logo"></a>
                                 <div class="login-box">
                                     <!--<header><h1><?php echo $config->title ?></h1></header>-->
-                                    <form method="post" action="<?php echo $urls->base ?>home" autocomplete="off">
+                                    <form method="post" action="<?php echo $urls->base ?>dashboard" autocomplete="off">
                                         <div class="control-group">
                                             <!-- Username -->
                                             <label class="control-label">Username</label>

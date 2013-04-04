@@ -1,0 +1,51 @@
+<?php include "partials/head.php"; ?>
+<section class="view">
+    <div class="container">
+
+        <div class="row-fluid">
+            <div class="span8">
+                <ul class="list-items">
+                    <li>
+                        <div class="list-item-detail">										
+                            <a href="javascript:;" class="list-item-title">Duis aute irure dolor in reprehenderit</a>
+                            <p class="list-item-preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="list-item-detail">										
+                            <a href="javascript:;" class="list-item-title">Duis aute irure dolor in reprehenderit</a>
+                            <p class="list-item-preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="list-item-detail">										
+                            <a href="javascript:;" class="list-item-title">Duis aute irure dolor in reprehenderit</a>
+                            <p class="list-item-preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="span4">
+                <div class="widget">
+                    <div class="widget-header">
+                        <i class="icon-star"></i>
+                        <div class="title">Favorites</div>
+                    </div>
+                    <div class="widget-content">
+                        content
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widget-header">
+                        <i class="icon-comment"></i>
+                        <div class="title">Recent comments</div>
+                    </div>
+                    <div class="widget-content">
+                        content
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<?php include "partials/foot.php"; ?>

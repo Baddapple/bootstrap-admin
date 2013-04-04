@@ -1,8 +1,13 @@
 <?php include "partials/head.php"; ?>
-<div class="view">
+<section class="view">
     <div class="container">
-        <h2>Error 404</h2>
-        Page not found<br>
+        <div class="hero-unit hero-error al-c">
+            <h1>Error 404</h1>
+            <p>Page not found</p>
+        </div>
+        <div class="al-c">
+            <a href="javascript:window.history.back();" class="btn btn-large"><i class="icon-arrow-left"></i> Back</a>
+        </div>
     </div>
-</div>
+</section>
 <?php include "partials/foot.php"; ?>
