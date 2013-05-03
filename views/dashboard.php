@@ -1,7 +1,6 @@
 <?php include "partials/head.php"; ?>
-<section class="view">
-    <div class="container">
-        
+<section class="view tab-content">
+    <div id="t0" class="container tab-pane active">
         <div class="row-fluid">
             <div class="span6">
                 <div class="widget stack">

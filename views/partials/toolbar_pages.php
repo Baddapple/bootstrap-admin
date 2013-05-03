@@ -24,13 +24,13 @@
         <div class="container">
             <ul class="nav nav-pills">
                 <li class="active">
-                    <a href="#">Overview</a>
+                    <a href="#t0" data-toggle="tab">Overview</a>
                 </li>
                 <li class="">
-                    <a href="#">Emails</a>
+                    <a href="#t1" data-toggle="tab">Emails</a>
                 </li>
                 <li class="">
-                    <a href="#">Logs</a>
+                    <a href="#t2" data-toggle="tab">Logs</a>
                 </li>
             </ul>
         </div>

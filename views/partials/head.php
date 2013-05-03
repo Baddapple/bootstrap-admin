@@ -62,10 +62,10 @@
                 <header id="header" role="banner">
                     <?php include "menu.php"; ?>
                     <?php
-                    if (is_readable(dirname(__FILE__)."/toolbars_" . $viewname . ".php")) {
-                        include "toolbars_" . $viewname . ".php";
+                    if (is_readable(dirname(__FILE__)."/toolbar_" . $viewname . ".php")) {
+                        include "toolbar_" . $viewname . ".php";
                     } else {
-                        //include "toolbars.php";
+                        include "toolbar.php";
                     }
                     ?>
                 </header>

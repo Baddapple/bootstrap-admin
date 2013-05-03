@@ -27,8 +27,8 @@
             <div class="span4">
                 <div class="widget">
                     <div class="widget-header">
-                        <i class="icon-star"></i>
-                        <div class="title">Favorites</div>
+                        <i class="icon-comment"></i>
+                        <div class="title">Pending for aproval</div>
                     </div>
                     <div class="widget-content">
                         content
@@ -37,7 +37,7 @@
                 <div class="widget">
                     <div class="widget-header">
                         <i class="icon-comment"></i>
-                        <div class="title">Recent comments</div>
+                        <div class="title">Detected as SPAM</div>
                     </div>
                     <div class="widget-content">
                         content
@@ -45,12 +45,6 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div id="t1" class="container tab-pane">
-        "Emails" tab
-    </div>
-    <div id="t2" class="container tab-pane">
-        "Logs" tab
     </div>
 </section>
 <?php include "partials/foot.php"; ?>
