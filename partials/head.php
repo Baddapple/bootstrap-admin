@@ -1,24 +1,24 @@
 <!DOCTYPE html>
-<html class="<?php echo $config->rootClasses ?> no-js">
+<html class="sf-layout no-js">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title><?php echo $config->title ?></title>
+        <title><?php echo $window_title ?></title>
 
         <meta name="robots" content="NOINDEX, NOFOLLOW">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
         <!-- For third-generation iPad with high-resolution Retina display: -->
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo $urls->public; ?>touch-icons/apple-touch-icon-144x144-precomposed.png?v=<?php echo $config->assetsVersion ?>">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="./apple-touch-icon-144x144-precomposed.png">
         <!-- For iPhone with high-resolution Retina display: -->
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo $urls->public; ?>touch-icons/apple-touch-icon-114x114-precomposed.png?v=<?php echo $config->assetsVersion ?>">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="./apple-touch-icon-114x114-precomposed.png">
         <!-- For first- and second-generation iPad: -->
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo $urls->public; ?>touch-icons/apple-touch-icon-72x72-precomposed.png?v=<?php echo $config->assetsVersion ?>">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./apple-touch-icon-72x72-precomposed.png">
         <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
-        <link rel="apple-touch-icon-precomposed" href="<?php echo $urls->public; ?>touch-icons/apple-touch-icon-57x57-precomposed.png?v=<?php echo $config->assetsVersion ?>">
+        <link rel="apple-touch-icon-precomposed" href="./apple-touch-icon-57x57-precomposed.png">
 
-        <link rel="shortcut icon" type="image/x-icon" href="<?php echo $urls->public; ?>favicon.ico?v=<?php echo $config->assetsVersion ?>">
+        <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
 
         <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet" type="text/css">
 
@@ -45,11 +45,11 @@
         );
 
         foreach ($stylesheets as $uri):
-            ?><link rel="stylesheet" type="text/css" href="<?php echo $urls->public . $uri . "?v=" . $config->assetsVersion ?>"><?php
+            ?><link rel="stylesheet" type="text/css" href="./<?php echo $uri ?>"><?php
         endforeach;
 
         foreach ($scripts as $uri):
-            ?><script type="text/javascript" src="<?php echo $urls->public . $uri . "?v=" . $config->assetsVersion ?>"></script><?php
+            ?><script type="text/javascript" src="./<?php echo $uri ?>"></script><?php
         endforeach;
         ?>
     </head>
@@ -70,4 +70,4 @@
                     ?>
                 </header>
 
-                <div id="main" role="main">
+                <main role="main">

@@ -27,9 +27,17 @@ ini_set("session.use_trans_sid", false); # do not use PHPSESSID in urls
 ini_set("session.hash_function", 1); # use sha1 algorithm (160 bits)
 ini_set("session.cookie_httponly", true);
 
-include "bscms.php";
-bscms::init(include "config.php");
+// Define global template variables
+$title = $window_title = "Bootstrap CMS";
+$viewname = str_replace(".php", "", strtolower(basename($_SERVER["SCRIPT_FILENAME"])));
 
-//var_dump(bscms::url("base"));
-//var_dump(bscms::request());
-//die();
+if ($viewname == "init") {
+    header("Location:index.php");
+    exit;
+}
+
+if ($viewname != "index") {
+    $window_title .= " | " . ucfirst($viewname);
+}else{
+    $viewname = "dashboard";
+}

@@ -1,4 +1,7 @@
-<?php include "partials/head.php"; ?>
+<?php
+include "include/init.php";
+include "partials/head.php";
+?>
 <section class="view">
     <div class="container">
         <div class="hero-unit hero-error al-c">

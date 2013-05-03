@@ -23,7 +23,7 @@ Select2, Bootstrap Wysihtml5 and more.
 
 ## To-Do
 
-- [x] Use rewrite engine for loading templates
+- [x] Zero config, library agnostic ready to implement templates
 - [ ] More views: login, error page, tables, fonts, etc.
 - [ ] Plugin showcase (colorpicker, datepicker, datatables, ...)
 - [ ] Notifications plugin [maybe Pines Notify](http://pinesframework.org/pnotify/)

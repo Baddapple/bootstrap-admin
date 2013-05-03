@@ -1,5 +1,5 @@
             
-                </div> <!-- #main role=main -->
+                </main> <!-- main role=main -->
             </div> <!-- .sf-subwrap -->
         </div> <!-- .sf-wrap -->
         
@@ -15,7 +15,7 @@
                     <a href="#">Terms of Service</a>
                     <a href="#">Privacy Policy</a>
                 </nav>
-                <div class="brand"><?php echo $config->title ?></div>
+                <div class="brand"><?php echo $title ?></div>
             </section>
         </footer>
     </body>
