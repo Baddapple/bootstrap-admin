@@ -1,0 +1,18 @@
+html, body {
+    font-family: 'Open Sans',sans-serif;
+    color: #777777;
+    background: #ffffff;
+}
+
+.bc-overlay{
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index: 100000;
+}
+
+.bc-overlay-loader{
+    background: #ffffff url(../img/loading.gif) no-repeat center center;
+}
