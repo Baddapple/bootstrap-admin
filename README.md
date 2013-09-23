@@ -1,3 +1,3 @@
-# Bootstrap CMS
+# Bootstrap Admin
 
-An admin template for Twitter Bootstrap 3
+A backend template for Twitter Bootstrap 3
